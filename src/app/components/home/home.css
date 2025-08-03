@@ -1,0 +1,9 @@
+.line{
+    height: 4px;
+    width: 90px;
+    background-color: white;
+}
+
+.vh-90{
+    height: 100vh;
+}

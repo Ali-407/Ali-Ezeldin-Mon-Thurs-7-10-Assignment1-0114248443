@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --main-clr:#2c3e50;
+    --sec-clr:#1abc9c;
+}
+
+.bgMain-color{
+    background-color: var(--main-clr);
+}
+.textMain-color{
+    color: var(--main-clr);
+}
+
+.bgSecondary-color{
+    background-color: var(--sec-clr);
+}
+.textSecondary-color{
+    color: var(--sec-clr);
+}
+
+.btn-main{
+background-color: var(--main-clr);
+padding: 10px;
+color: white;
+outline: unset;
+border: none;
+border-radius: 20px;
+}
+
+a{
+    color: white  !important;
+    text-decoration: none;
+}
+a:active{
+    color: white  !important;
+    text-decoration: none;
+}
+
+.vh-90{
+    height: 100vh;
+}
